@@ -168,7 +168,7 @@ function App() {
               }}
               disabled={currentQuestion === 0}
             >
-               Previous Question
+              🢀 Previous Question
             </button>
             <button
               onClick={() => {
@@ -178,7 +178,7 @@ function App() {
               }}
               disabled={currentQuestion + 1 === questions.length}
             >
-              Next Question 
+              Next Question 🢂 
             </button>
           </div>
   
