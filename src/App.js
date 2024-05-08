@@ -103,7 +103,7 @@ function App() {
     },{
       text: "Don't take into consideration the final score, it's just a quiz. YOU are a great developer !",
       options: [
-        { id: 0, text: <img src='icons8-react-js-150.png' alt='Congrats image' />, isCorrect: true},
+        { id: 0, text: <img src='icons8-react-js-150.png' />, isCorrect: true},
       ]
     },
   ];
