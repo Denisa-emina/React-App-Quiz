@@ -187,7 +187,7 @@ function App() {
 
 					{/* Butoanele */}
 					<div className="nav-buttons">
-						<button
+						<button className="nav-buttons-button"
 							onClick={() => {
 								if (currentQuestion > 0) {
 									setCurrentQuestion(currentQuestion - 1);
@@ -197,7 +197,7 @@ function App() {
 						>
 							Prev
 						</button>
-						<button
+						<button className="nav-buttons-button"
 							onClick={() => {
 								if (currentQuestion + 1 < questions.length) {
 									setCurrentQuestion(currentQuestion + 1);
