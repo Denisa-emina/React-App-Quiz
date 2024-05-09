@@ -6,5 +6,6 @@ This project offers a variety of features, including a complete responsive desig
 
 As you answer questions, the app instantly updates your score and provides a comprehensive score once the quiz is completed. 
 
-DEMO: 
+DEMO: https://react-quiz-app-sd.netlify.app/
+
 
