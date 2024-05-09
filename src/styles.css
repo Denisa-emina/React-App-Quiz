@@ -1,38 +1,32 @@
 
 @media only screen and (max-width: 768px) {
-    
-    body {
-      font-size: 16px;
-    }
-   .question-card {
-      padding: 20px;
-    }
-   .nav-buttons {
-      flex-direction: column;
-    }
-   .nav-buttons button {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    ul {
-      padding: 0;
-    }
-    li {
-      padding: 10px;
-      border-bottom: 1px solid #ccc;
-    }
-  }
-  
-  
-  @media only screen and (max-width: 480px) {
-    
-   .question-card {
-      flex-direction: column;
-    }
-   .question-text {
-      font-size: 18px;
-    }
-  }
+	body {
+		font-size: 16px;
+	}
+	.question-card {
+		padding: 10px;
+	}
+
+	.nav-buttons button {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	ul {
+		padding: 0;
+	}
+	li {
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.question-card {
+		flex-direction: column;
+	}
+	.question-text {
+		font-size: 18px;
+	}
+}
 
  
   
