@@ -109,7 +109,7 @@ function App() {
 			],
 		},
 		{
-	 text: "Don't take into consideration the final score, it's just a quiz. YOU are a great developer ! Click on the image to see the final results!",
+	 text: " Click on the image to see the final results !",
 			options: [
 				{
 					id: 0,
