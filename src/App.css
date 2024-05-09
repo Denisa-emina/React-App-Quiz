@@ -93,6 +93,11 @@ body {
   margin: 0;
 }
 
+.nav-buttons__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 
 
 
