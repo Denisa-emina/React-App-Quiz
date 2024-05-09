@@ -1,15 +1,15 @@
 .App {
   text-align: center;
-}
-
-.question-card {
+  
   /* margini sus si jos */
-  margin: 40px auto; 
+  margin: 10px auto; 
 
   /* Dimensiuni */
   width: 85%; 
   height: auto;
+}
 
+.question-card {
   /* Vizual */
   background-color: #404E4D;
   padding: 90px;
@@ -17,11 +17,12 @@
   color: rgb(252, 243, 243);
 
   /*  padding stanga si dreapta */
-  padding: 0 64px;
+  padding: 20px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li {
@@ -30,8 +31,8 @@ li {
   padding: 20px;
   border: 3px solid white;
   border-radius: 20px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .question-text {
@@ -68,15 +69,11 @@ button {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-
   border-radius: 24px;
+  cursor: pointer;
 }
 
 .nav-buttons {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
   display: flex;
   justify-content: space-between;
   margin: 0 32px;
@@ -89,6 +86,10 @@ button {
 
 body {
   background-color: darkgray;
+}
+
+.countdown-timer h2{
+  margin: 0;
 }
 
 
