@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CountdownTimer from './Timer';
 
 const QuestionsView = ({ questions, currentQuestion, optionClicked }) => {
+const [timeLeft, setTimeLeft] = useState(10 * 60); 
   return (
     <div className="question-card">
       <h2>
@@ -20,6 +22,8 @@ const QuestionsView = ({ questions, currentQuestion, optionClicked }) => {
           );
         })}
       </ul>
+      <CountdownTimer
+        minutes={timeLeft / 60} />
     </div>
   );
 };
