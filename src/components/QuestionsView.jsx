@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CountdownTimer from './Timer';
 
 const QuestionsView = ({ questions, currentQuestion, optionClicked }) => {
-const [timeLeft, setTimeLeft] = useState(10 * 60); 
+const [timeLeft] = useState(10 * 60);  
   return (
     <div className="question-card">
       <h2>
