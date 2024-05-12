@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./styles.css";
-import { questions } from "./context/Questions";
-import NavButtons from "./context/NavButtons";
+import { questions } from "./data/Questions";
+import NavButtons from "./components/NavButtons";
 import QuestionsView from "./components/QuestionsView";
-
 
 function App() {
 	// Proprietati
