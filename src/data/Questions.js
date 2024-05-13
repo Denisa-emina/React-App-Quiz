@@ -7,7 +7,7 @@ export const questions = [
             { id: 0, text: "npm start", isCorrect: true },
             { id: 1, text: "npm serve", isCorrect: false },
             { id: 2, text: "npm build", isCorrect: false },
-            { id: 3, text: "npm run dev", isCorrect: false },
+            { id: 3, text: "npm run", isCorrect: false },
         ],
     },
     {
